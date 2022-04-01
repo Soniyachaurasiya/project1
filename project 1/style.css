@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    backdrop-filter: blur(3px);
+    background-attachment: fixed;
+    min-height: 700px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* top bar open */
+.top-bar{
+    display: grid;
+    grid-template-columns: 20% 25%;
+    color: white;
+}
+.top-bar .phone-number, .time{
+    text-align: center;
+    padding: 15px;
+    font-style: bold;
+}
+/* top bar close */
+
+
+
+/* nav bar open */
+.nav-bar{
+    display: grid;
+    grid-template-columns: 20% 8% 8% 8% 8% 8% 8% 8%;
+    color: azure;
+    padding: 15px;
+    background-color: rgba(69, 69, 69, 0.3);
+}
+.nav-bar .title{
+    text-align: center;
+    font-size: 30px;
+}
+.nav-bar .menu-items{
+    height: 30;
+    padding-top: 15px;
+    color: azure;
+}
+
+/* nav bar close */
+
+
+
+
+/* home content open */
+.home-content{
+    padding:  200px 70px ;
+    padding-right: 20px;
+}
+.home-content .title{
+    font-size: 30px;
+    color: cornsilk;
+}
+.home-content .description{
+    font-size: 20px;
+    color:  cyan;
+    margin-top: -30;
+}
+.home-content .button-group button{
+    padding: 15px;
+    background-color: rgba(0,0,0,0);
+    border-radius: 10px;
+}
+/* home content close */
+
+
+
+
+
+
